@@ -1,0 +1,181 @@
+body {
+    margin: 50px 10px;
+    border: 5px solid rgb(206, 205, 205);
+}
+
+header {
+    background-color: #0C3C60;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+.logo-menu {
+    display: flex;
+    color: #FFFFFF;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-left: 300px;
+    margin-top: 12px;
+}
+
+.frase-logo {
+    text-transform: uppercase;
+    width: 230px;
+    height: 40px;
+    color: #51C6D2;
+    margin-top: 19px;
+    margin-left: 5px;
+}
+
+.menu {
+    text-transform: uppercase;
+    margin-left: 110px;
+    align-self: center;
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 16px;
+    width: 600px;
+    color: #FFFFFF;
+}
+
+main {
+    background-image: url(img/Imagem.PNG);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#conteudo-titulo {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #0C3C60;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+#conteudo-texto-internacionalizacao, #conteudo-texto-servicos, #conteudo-texto-quem-somos, #conteudo-texto-contato, #conteudo-texto-precos-servicos {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: #0C3C60;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 400px;
+}
+
+#conteudo-texto-internacionalizacao {
+    line-height: 1.0;
+}
+
+#conteudo-texto-servicos {
+    line-height: 0.3;
+}
+
+#conteudo-texto-quem-somos {
+    line-height: 1.6;
+}
+
+#conteudo-texto-contato {
+    line-height: 1.6;
+}
+
+#conteudo-texto-precos-servicos {
+    line-height: 0.0;
+}
+
+#entre-em-contato, .preco {
+    font-weight: bold;
+}
+
+.frase-de-chamada {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #0C3C60;
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 100%;
+    height: 100px;
+    line-height: 0;
+}
+
+#chamada {
+    font-size: 20px;
+    color: #0C3C60;
+    text-transform: uppercase;
+}
+
+#chamada-1 {
+    font-size: 60px;
+    margin-top: 50px;
+    color: #0C3C60;
+    text-transform: uppercase;
+}
+
+footer {
+    display: flex;
+    background-color: #0c3c60;
+    color: #ffffff;
+    width: 100%;
+    height: 40px;
+}
+
+#copyright {
+    margin-left: 500px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.linkedin {
+    margin-top: 5px;
+    margin-left: 550px;
+    text-align: center;
+}
+
+#precos {
+    display: none;
+    width: 20px;
+    margin-top: 18px;
+}
+
+#servicos:hover #precos {
+    display: flex;
+    position: absolute;
+}
+
+#servicos {
+    display: flex;
+    flex-direction: column;
+}
+
+a:hover {
+    color: #6fcad4;
+}
+
+/*
+para alinhar uma caixa na parte inferior de outra caixa
+display: flex  -> colocar no pai
+align-self: flex-end  -> colocar no filho
+
+Para redimensionar a imagem background juntamente com o container
+background-size: 100% 100%
+max-width:100%
+max-height:100%
+*/

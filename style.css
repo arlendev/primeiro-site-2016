@@ -1,0 +1,136 @@
+body {
+  margin: 50px 10px;
+  border: 5px solid rgb(206, 205, 205);
+}
+
+header {
+  background-color: #0c3c60;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10px;
+}
+
+.logo-menu {
+  display: flex;
+  color: #ffffff;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 45px;
+  margin-left: 300px;
+  margin-top: 12px;
+}
+
+.frase-logo {
+  text-transform: uppercase;
+  width: 230px;
+  height: 40px;
+  color: #51c6d2;
+  margin-top: 19px;
+  margin-left: 5px;
+}
+
+.menu {
+  text-transform: uppercase;
+  margin-left: 110px;
+  align-self: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 16px;
+    width: 600px;
+    color: #ffffff;
+}
+
+.menu li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main {
+  background-image: url(img/Imagem.PNG);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.frase-de-chamada {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #0c3c60;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  height: 100px;
+  line-height: 0;
+  align-self: flex-end;
+}
+
+#chamada {
+  font-size: 20px;
+  color: #01010f;
+  text-transform: uppercase;
+}
+
+#chamada-1 {
+  font-size: 60px;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+footer {
+  display: flex;
+  background-color: #0c3c60;
+  color: #ffffff;
+  width: 100%;
+  height: 40px;
+}
+
+#copyright {
+  margin-left: 500px;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+}
+
+.linkedin {
+  margin-top: 5px;
+  margin-left: 550px;
+  text-align: center;
+}
+
+#precos {
+  display: none;
+  width: 20px;
+  margin-top: 18px;
+}
+
+#servicos:hover #precos {
+  display: flex;
+  position: absolute;
+}
+
+#servicos {
+  display: flex;
+  flex-direction: column;
+}
+
+a:hover {
+  color: #6fcad4;
+}
+
+/*
+para alinhar uma caixa na parte inferior de outra caixa
+display: flex  -> colocar no pai
+align-self: flex-end  -> colocar no filho
+
+Para redimensionar a imagem background juntamente com o container
+background-size: 100% 100%
+max-width:100%
+max-height:100%
+*/
